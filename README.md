@@ -1,11 +1,10 @@
 
-# Curso Laravel 8: Relacionamentos de Tabelas
-[Assine a Academy, e Seja VIP!](https://academy.especializati.com.br)
+# Curso Laravel: Relacionamentos de Tabelas
 
 ### Passo a passo
 Clone Repositório
 ```sh
-git clone https://github.com/especializati/curso-laravel-8-relacionamentos-tabelas.git my-project
+git clone https://github.com/especializati/relacionamento-entre-tabelas-laravel.git my-project
 ```
 ```sh
 cd my-project/
@@ -32,9 +31,9 @@ APP_URL=http://localhost:8180
 DB_CONNECTION=mysql
 DB_HOST=mysql
 DB_PORT=3306
-DB_DATABASE=nome_que_desejar_db
+DB_DATABASE=mysql
 DB_USERNAME=root
-DB_PASSWORD=qualquer_senha_aqui
+DB_PASSWORD=root
 
 CACHE_DRIVER=redis
 QUEUE_CONNECTION=redis

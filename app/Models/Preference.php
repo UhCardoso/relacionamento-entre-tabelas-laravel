@@ -10,9 +10,9 @@ class Preference extends Model
     use HasFactory;
 
     protected $fillable = [
-        'notify_emails',
-        'notify',
-        'background_color',
+        "notify_emails",
+        "notify",
+        "background_color"
     ];
 
     public function user()
